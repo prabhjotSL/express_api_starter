@@ -40,7 +40,6 @@ module.exports.controller = function(app, api_prefix) {
     	// No Authentication required.
     	var email = req.body.email;
     	var password = encryption.encrypt(req.body.password);
-
     	Admin.findOneQ({email: email, password: password})
     		.then(function(admin) {
     			obj = admin.toObject(); // swap for a plain javascript object instance

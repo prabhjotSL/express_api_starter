@@ -11,3 +11,8 @@
 3. q: To enable promises. Read more here: https://www.npmjs.com/package/q
 
 4. mongoose-q: To enable promises with mongoose using q. Read more here: https://www.npmjs.com/package/mongoose-q
+
+5. Setup Database: (Check if dump folder is present in repo, then use command a.)
+   a. mongorestore --db godlabs dump/
+   b. Dump Database: (stores it in dump folder).
+      mongodump --db godlabs dump/godlabs
