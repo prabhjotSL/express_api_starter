@@ -1,0 +1,1 @@
+{  "title": "Express API Starter",  "url": "http://api.godlabs.com/api/v1",  "name": "Express_API_Starter",  "version": "0.0.0",  "description": "",  "sampleUrl": false,  "apidoc": "0.2.0",  "generator": {    "name": "apidoc",    "time": "2016-02-14T14:20:12.867Z",    "url": "http://apidocjs.com",    "version": "0.13.1"  }}
